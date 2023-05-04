@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Bootstrap</title>
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <!-- BOOTSTRAP JS -->
+    <script src="lib/bootstrap.bundle.min.js" defer></script>
+    <!-- STYLES CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Top 6 Picos no Paraná</h1>
+    </header>
+    <div class="container">
+        <div class="carousel carousel-fade slide w-100" id="carousel-imagens" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100 mb-3" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100 mb-3" src="https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832_1280.jpg">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100 mb-3" src="https://cdn.pixabay.com/photo/2015/11/16/16/28/bird-1045954_1280.jpg">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100 mb-3" src="https://cdn.pixabay.com/photo/2013/10/02/23/03/mountains-190055_1280.jpg">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel-imagens" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel-imagens" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-imagens" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel-imagens" data-bs-slide-to="3"></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <article class="card border-3 mb-3" >
+                    <img class="card-img-top" src="img/pico-agudo-18.jpeg" alt="Foto Pico Agudo">
+                    <div class="card-body">
+                        <h4 class="card-title">Pico Agudo</h4>
+                        <p>O Pico Agudo é uma dos locais mais surpreendentes do estado do Paraná. Com 1.100 metros de altura, a atração encanta seus visitantes por oferecer um visual de tirar o fôlego. Se você ama estar em contato com a natureza e curte belas paisagens, precisa conferir o nosso roteiro.</p>
+                        <a class="btn btn-success" href="https://www.viajali.com.br/pico-agudo/" target="_blank">Ver original</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <article class="card border-3 mb-3" >
+                    <img class="card-img-top" src="img/pico-parana-8.jpeg" alt="Foto Pico Paraná">
+                    <div class="card-body">
+                        <h4 class="card-title">Pico Paraná</h4>
+                        <p>Se você está em busca de uma boa aventura e adora praticar ecoturismo, certamente vai amar conhecer o Pico Paraná. Essa atração natural é a montanha mais alta do Sul do Brasil e possui paisagens lindas. Além disso, garante um contato único com a natureza. Animou para visitar? Confira a seguir o guia e prepare-se para incríveis descobertas!</p>
+                        <a class="btn btn-success" href="https://www.viajali.com.br/pico-parana/ " target="_blank">Ver original</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <article class="card border-3 mb-3" >
+                    <img class="card-img-top" src="img/marumbi.jpeg" alt="Foto Pico Marumbi">
+                    <div class="card-body">
+                        <h4 class="card-title">Pico Marumbi</h4>
+                        <p>O estado do Paraná, berço do montanhismo nacional, abriga o Parque Estadual do Pico do Marumbi, um complexo de rochas acima dos mil metros de altitude, cercado por uma das áreas de Mata Atlântica mais preservadas do Brasil. O Parque está localizado no município de Morretes, a 65 km ao leste de Curitiba, e o percurso de duas horas até lá é feito por trem. Mas como subir o Pico do Marumbi?</p>
+                        <a class="btn btn-success" href="https://gooutside.com.br/como-subir-o-pico-do-marumbi/" target="_blank">Ver original</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <article class="card border-3 mb-3" >
+                    <img class="card-img-top" src="img/anhangava.jpeg" alt="Foto Morro do Anhangava">
+                    <div class="card-body">
+                        <h4 class="card-title">Morro do Anhangava</h4>
+                        <p>Considerado um dos melhores campo-escola de escalada em rocha do Brasil, possui 1.420 metros de altitude e várias vias com diversos graus de dificuldade. Excelente ponto para prática de vôo livre, escalada, rappel, caminhadas e passeios a cavalo. Está localizado no Parque Estadual Serra da Baitaca, a apenas nove quilômetros do Centro da cidade. Sua subida leva em torno de 1 hora e revela paisagens cercadas de natureza.</p>
+                        <a class="btn btn-success" href="https://quatrobarras.pr.gov.br/turismo/morro-do-anhangava" target="_blank">Ver original</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <article class="card border-3 mb-3" >
+                    <img class="card-img-top" src="img/Morro-do-canal-07-1-730x730.jpeg" alt="Foto Morro do Canal">
+                    <div class="card-body">
+                        <h4 class="card-title">Morro do Canal</h4>
+                        <p>Se você busca por aventuras, o Morro do Canal é um dos destinos que provavelmente irá atrair sua atenção. A montanha de quase 1400 m de altura é visitada por diversos viajantes, sempre em busca de um bom desafio repleto de recompensas. Ficou interessado? Confira mais a respeito deste local a seguir:</p>
+                        <a class="btn btn-success" href="https://www.viajali.com.br/morro-do-canal/" target="_blank">Ver original</a>
+                    </div>
+                </article>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <article class="card border-3 mb-3" >
+                    <img class="card-img-top" src="img/pico-caratuva-montanhas-do-parana-antenas.jpeg" alt="Foto Pico Caratuva">
+                    <div class="card-body">
+                        <h4 class="card-title">Pico Caratuva</h4>
+                        <p>O Pico Caratuva é a segunda montanha mais alta da região sul, localizada entre o município de Antonina e Campina Grande do Sul. Um local que entrega aquele visu de tirar o ar! A caminhada é regada por trechos que são preservados da Mata Atlântica no Brasil.</p>
+                        <a class="btn btn-success" href="https://redeglobo.globo.com/rpc/plug/noticia/conheca-o-pico-caratuva-a-segunda-montanha-mais-alta-da-regiao-sul.ghtml" target="_blank">Ver original</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
